@@ -30,7 +30,7 @@ h1 {
 }
 h2 {
     color: #66BFBF;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Khmer', cursive;
     font-size: 2.5rem;
     font-weight: normal;
 }
@@ -39,16 +39,7 @@ h3 {
     color: #11999E;
 
 }
-.text-descrition {
-    position: relative;
-    left: 6.25rem;
-    top: 2.5rem;
-}
-.text-descrition1 {
-    position: relative;
-    right: 6.25rem;
-    top: 2.5rem;
-}
+
 
 
 .top-cloud {
@@ -64,7 +55,7 @@ h3 {
 a {
     color: #11999E;
 }
-.skill-row {
+.skill1 {
     width: 50%;
     margin: 6.25rem auto 6.25rem auto;
     text-align: right;
@@ -72,7 +63,7 @@ a {
     position: relative;
     margin-top: 3.125rem;
 }
-.skill-row1 {
+.skill2 {
     width: 50%;
     margin: 6.25rem auto 6.25rem auto;
     text-align: left;
@@ -87,19 +78,20 @@ a {
     
     margin: 6.25rem auto 6.25rem auto;
 }
+.col-sm-6 {
+    text-align: center;
+}
 .gamer {
-    width: 25%;
-    float: left;
-    position: relative;
-    left: 6.25rem;
+    width: 35%;
+    margin-top: 1.875rem;
     
+    margin-left: 6.25rem;    
 }
 .rider {
-    width: 25%;
-    float: right;
-    position: relative;
-    right: 6.25rem;
-    margin-left: 0rem;
+    width: 35%;
+    margin-top: 1.875rem;
+    
+    margin-right: 6.25rem;     
 }
 P {
     color: #40514E;
@@ -131,7 +123,7 @@ hr {
     -webkit-box-shadow: 0px 1px 4px #666666;
     -moz-box-shadow: 0px 1px 4px #666666;
     box-shadow: 0px 1px 4px #666666;
-    font-family: Arial;
+    font-family: 'Khmer', cursive;
     color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
@@ -152,4 +144,10 @@ hr {
   }
   .footer-link {
     margin: auto 0.625rem auto 0.625rem;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    color: #EAF6F6
   }
